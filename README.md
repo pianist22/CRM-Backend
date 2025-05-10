@@ -16,41 +16,6 @@ This is the backend service for the CRM (Customer Relationship Management) appli
 
 ---
 
-## 📁 Folder Structure
-
-CRM-backend/
-├── .env.sample # Sample environment variables
-├── .gitignore # Git ignored files
-├── app.js # Main Express app setup
-├── config.js # MongoDB and Google OAuth config
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Lock file for dependencies
-├── server.js # Entry point of the application
-│
-├── controllers/ # Route handlers
-│ ├── authController.js
-│ ├── campaignController.js
-│ └── ... (other controllers)
-│
-├── middlewares/ # Custom middlewares (e.g., auth)
-│ ├── authMiddleware.js
-│ └── ... (other middlewares)
-│
-├── models/ # Mongoose models
-│ ├── User.js
-│ ├── Campaign.js
-│ └── ... (other models)
-│
-├── routes/ # Route definitions
-│ ├── authRoutes.js
-│ ├── campaignRoutes.js
-│ └── ... (other routes)
-│
-└── worker/ # Background jobs (if any)
-├── emailWorker.js
-└── ... (other workers)
----
-
 ## 🧪 Local Setup Instructions
 
 ### 1. Clone the Repository
