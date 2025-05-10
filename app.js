@@ -7,7 +7,6 @@ const deliveryRoutes = require('./routes/deliveryRoutes');
 const campaignRoutes = require('./routes/campaignRoutes');
 const vendorRoutes = require('./routes/vendorRoutes');
 const receiptRoutes = require('./routes/receiptRoutes');
-const generateRoute = require('./routes/generate');
 
 require('./worker/deliveryConsumer'); // Start consumer process
 const app = express();
@@ -28,7 +27,6 @@ app.use('/api/v1/deliveries', deliveryRoutes);
 app.use('/api/v1/campaigns', campaignRoutes);
 app.use('/api/v1/vendor', vendorRoutes);
 app.use('/api/v1/receipt', receiptRoutes);
-// app.use("/generate", generateRoute);
 
 
 module.exports = app;
