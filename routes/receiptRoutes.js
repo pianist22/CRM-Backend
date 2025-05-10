@@ -4,7 +4,7 @@ const { handleReceipt } = require('../controllers/deliveryReceiptController');
 const { authenticate } = require('../middlewares/authMiddleware');
 
 
-// router.post('/',authenticate, handleReceipt);
+// router.post('/',authenticate, handleReceipt);    
 router.post('/', handleReceipt);
 
 module.exports = router;
