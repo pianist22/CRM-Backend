@@ -16,22 +16,7 @@ This is the backend service for the CRM (Customer Relationship Management) appli
 
 ---
 
-## 📁 Folder Structure
-
-CRM-backend/
-├── config.js # MongoDB and Google OAuth config
-├── controllers/ # Route handlers
-├── middlewares/ # Custom middleware (e.g., auth)
-├── models/ # Mongoose models
-├── routes/ # API route definitions
-├── worker/ # Background job processors (if any)
-├── .gitignore # Files to ignore in Git
-├── app.js # App setup with Express
-├── server.js # Entry point of the application
-├── package.json # Project metadata and scripts
-├── package-lock.json # Dependency lock file
-├── .env.sample # Sample environment variables
-
+<pre><code>## 📁 Folder Structure ``` CRM-backend/ ├── config.js # MongoDB and Google OAuth config ├── controllers/ # Route handlers ├── middlewares/ # Custom middleware (e.g., auth) ├── models/ # Mongoose models ├── routes/ # API route definitions ├── worker/ # Background job processors (if any) ├── .gitignore # Files to ignore in Git ├── app.js # App setup with Express ├── server.js # Entry point of the application ├── package.json # Project metadata and scripts ├── package-lock.json # Dependency lock file ├── .env.sample # Sample environment variables ``` </code></pre>
 
 ---
 
